@@ -17,26 +17,26 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Kevin's Tech Blog",
-    template: "%s | Kevin's Tech Blog",
+    default: "Kevin's Life Blog",
+    template: "%s | Kevin's Life Blog",
   },
   description:
-    "AI, 기술 트렌드, 경제 분석에 대한 깊이 있는 인사이트를 공유합니다.",
-  metadataBase: new URL("https://antkdi.github.io"),
+    "여성, 육아, 일과 삶의 균형에 대한 따뜻하고 실용적인 이야기를 공유합니다.",
+  metadataBase: new URL("https://life.antkdi.com"),
   openGraph: {
     type: "website",
     locale: "ko_KR",
-    url: "https://antkdi.github.io",
-    siteName: "Kevin's Tech Blog",
-    title: "Kevin's Tech Blog",
+    url: "https://life.antkdi.com",
+    siteName: "Kevin's Life Blog",
+    title: "Kevin's Life Blog",
     description:
-      "AI, 기술 트렌드, 경제 분석에 대한 깊이 있는 인사이트를 공유합니다.",
+      "여성, 육아, 일과 삶의 균형에 대한 따뜻하고 실용적인 이야기를 공유합니다.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Kevin's Tech Blog",
+    title: "Kevin's Life Blog",
     description:
-      "AI, 기술 트렌드, 경제 분석에 대한 깊이 있는 인사이트를 공유합니다.",
+      "여성, 육아, 일과 삶의 균형에 대한 따뜻하고 실용적인 이야기를 공유합니다.",
   },
   robots: {
     index: true,

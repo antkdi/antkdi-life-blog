@@ -1,10 +1,10 @@
-import { Github, Mail, Rss, Code2, Brain, TrendingUp } from "lucide-react";
+import { Github, Mail, Rss, Heart, Baby, Briefcase } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "Kevin's Tech Blog - AI, 기술 트렌드, 경제 분석",
+  description: "Kevin's Life Blog - 여성, 육아, 일과 삶의 균형",
 };
 
 export default function AboutPage() {
@@ -48,13 +48,13 @@ export default function AboutPage() {
         <h2 className="mb-4 text-xl font-bold">About This Blog</h2>
         <div className="space-y-4 text-muted-foreground">
           <p>
-            안녕하세요! Kevin&apos;s Tech Blog에 오신 것을 환영합니다.
-            이 블로그에서는 AI, 기술 트렌드, 경제 분석에 대한 깊이 있는
-            인사이트를 공유합니다.
+            안녕하세요! Kevin&apos;s Life Blog에 오신 것을 환영합니다.
+            이 블로그에서는 여성, 육아, 일과 삶의 균형에 대한 따뜻하고
+            실용적인 이야기를 공유합니다.
           </p>
           <p>
-            다양한 전문가 페르소나의 시각으로 최신 뉴스와 트렌드를
-            분석하며, 독자들에게 새로운 관점을 제공하고자 합니다.
+            워킹맘, 육아 심리학자, 페미니스트 작가 등 다양한 페르소나의
+            시각으로 삶의 이야기를 나누며, 공감과 영감을 드리고자 합니다.
           </p>
         </div>
       </section>
@@ -64,24 +64,24 @@ export default function AboutPage() {
         <h2 className="mb-6 text-xl font-bold">Topics</h2>
         <div className="grid gap-4 sm:grid-cols-3">
           <div className="rounded-xl border border-border/50 bg-card/50 p-6 text-center backdrop-blur-sm">
-            <Brain className="mx-auto mb-3 h-8 w-8 text-blue-500" />
-            <h3 className="font-semibold">AI &amp; Tech</h3>
+            <Heart className="mx-auto mb-3 h-8 w-8 text-pink-500" />
+            <h3 className="font-semibold">Women &amp; Life</h3>
             <p className="mt-1 text-xs text-muted-foreground">
-              인공지능과 기술 혁신
+              여성의 삶과 경력
             </p>
           </div>
           <div className="rounded-xl border border-border/50 bg-card/50 p-6 text-center backdrop-blur-sm">
-            <TrendingUp className="mx-auto mb-3 h-8 w-8 text-violet-500" />
-            <h3 className="font-semibold">Economy</h3>
+            <Baby className="mx-auto mb-3 h-8 w-8 text-violet-500" />
+            <h3 className="font-semibold">Parenting</h3>
             <p className="mt-1 text-xs text-muted-foreground">
-              경제 동향과 투자 분석
+              육아와 아이 발달
             </p>
           </div>
           <div className="rounded-xl border border-border/50 bg-card/50 p-6 text-center backdrop-blur-sm">
-            <Code2 className="mx-auto mb-3 h-8 w-8 text-emerald-500" />
-            <h3 className="font-semibold">Dev</h3>
+            <Briefcase className="mx-auto mb-3 h-8 w-8 text-emerald-500" />
+            <h3 className="font-semibold">Work-Life</h3>
             <p className="mt-1 text-xs text-muted-foreground">
-              개발 트렌드와 팁
+              일과 삶의 균형
             </p>
           </div>
         </div>

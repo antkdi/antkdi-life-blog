@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Menu, X, Terminal } from "lucide-react";
+import { Menu, X, Heart } from "lucide-react";
 import { useState } from "react";
 import { ThemeToggle } from "./theme-toggle";
 import { Button } from "@/components/ui/button";
@@ -25,9 +25,9 @@ export function Navigation() {
           href="/"
           className="flex items-center gap-2 text-lg font-bold tracking-tight transition-colors hover:text-primary"
         >
-          <Terminal className="h-5 w-5 text-blue-500" />
-          <span className="bg-gradient-to-r from-blue-500 to-violet-500 bg-clip-text text-transparent">
-            Kevin&apos;s Tech Blog
+          <Heart className="h-5 w-5 text-pink-500" />
+          <span className="bg-gradient-to-r from-pink-500 to-rose-500 bg-clip-text text-transparent">
+            Kevin&apos;s Life Blog
           </span>
         </Link>
 
